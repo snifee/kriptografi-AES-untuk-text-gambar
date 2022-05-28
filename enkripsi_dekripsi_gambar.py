@@ -118,7 +118,7 @@ if __name__ == "__main__":
     buttonForOpenFile = Button(root,text="Open File",command=select_file)
     file_dir_field = Entry(root)
     pass_field = Entry(root, textvariable=KEY)
-    result_field = Text(root,width=15,height=5)
+    result_field = Text(root,width=15,height=5,state=DISABLED)
 
     buttonForOpenFile.grid(row=1, column=1,sticky="s")
     file_dir_field.grid(row=2, column=1, ipadx="200",ipady="5",pady=5,padx=5)
